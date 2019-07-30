@@ -12,24 +12,11 @@
   <dmn:inputData id="_E508046D-25DC-45C8-B10D-33397E593A3F" name="InputData-1">
     <dmn:variable id="_13EC7EDF-01C1-4B75-9E33-733DF792E9BC" name="InputData-1"/>
   </dmn:inputData>
-  <dmn:decision id="_C8FEBEEF-3077-4682-ADF0-BA021B9A56EF" name="Decision-1">
-    <dmn:variable id="_4A04037A-5E64-4A02-8EF8-D58A0F3531C4" name="Decision-1"/>
-    <dmn:literalExpression/>
-  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_C8FEBEEF-3077-4682-ADF0-BA021B9A56EF" dmnElementRef="_C8FEBEEF-3077-4682-ADF0-BA021B9A56EF" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="21" y="231" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_E508046D-25DC-45C8-B10D-33397E593A3F" dmnElementRef="_E508046D-25DC-45C8-B10D-33397E593A3F" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
