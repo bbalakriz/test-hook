@@ -9,24 +9,11 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:decision id="_DC1AF771-2488-4064-ABE5-E974CB9C4D05" name="Decision-1">
-    <dmn:variable id="_861C1402-59F9-4704-B2F0-84D6EC7A0E73" name="Decision-1"/>
-    <dmn:literalExpression/>
-  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_DC1AF771-2488-4064-ABE5-E974CB9C4D05" dmnElementRef="_DC1AF771-2488-4064-ABE5-E974CB9C4D05" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="239" y="208" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
