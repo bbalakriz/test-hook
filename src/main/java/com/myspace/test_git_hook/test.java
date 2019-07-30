@@ -8,23 +8,9 @@ public class test implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Integer test1;
-
 	private java.lang.Integer test2;
 
-	private java.lang.Integer test3;
-
-	private java.lang.Short new1;
-
 	public test() {
-	}
-
-	public java.lang.Integer getTest1() {
-		return this.test1;
-	}
-
-	public void setTest1(java.lang.Integer test1) {
-		this.test1 = test1;
 	}
 
 	public java.lang.Integer getTest2() {
@@ -35,28 +21,8 @@ public class test implements java.io.Serializable {
 		this.test2 = test2;
 	}
 
-	public java.lang.Integer getTest3() {
-		return this.test3;
-	}
-
-	public void setTest3(java.lang.Integer test3) {
-		this.test3 = test3;
-	}
-
-	public java.lang.Short getNew1() {
-		return this.new1;
-	}
-
-	public void setNew1(java.lang.Short new1) {
-		this.new1 = new1;
-	}
-
-	public test(java.lang.Integer test1, java.lang.Integer test2,
-			java.lang.Integer test3, java.lang.Short new1) {
-		this.test1 = test1;
+	public test(java.lang.Integer test2) {
 		this.test2 = test2;
-		this.test3 = test3;
-		this.new1 = new1;
 	}
 
 }
