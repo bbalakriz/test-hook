@@ -12,6 +12,8 @@ public class test implements java.io.Serializable {
 
 	private int newfield;
 
+	private int finaltest;
+
 	public test() {
 	}
 
@@ -31,9 +33,18 @@ public class test implements java.io.Serializable {
 		this.newfield = newfield;
 	}
 
-	public test(int cool, int newfield) {
+	public int getFinaltest() {
+		return this.finaltest;
+	}
+
+	public void setFinaltest(int finaltest) {
+		this.finaltest = finaltest;
+	}
+
+	public test(int cool, int newfield, int finaltest) {
 		this.cool = cool;
 		this.newfield = newfield;
+		this.finaltest = finaltest;
 	}
 
 }
