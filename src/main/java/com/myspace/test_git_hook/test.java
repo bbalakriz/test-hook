@@ -14,6 +14,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.Integer test3;
 
+	private java.lang.Short new1;
+
 	public test() {
 	}
 
@@ -41,11 +43,20 @@ public class test implements java.io.Serializable {
 		this.test3 = test3;
 	}
 
+	public java.lang.Short getNew1() {
+		return this.new1;
+	}
+
+	public void setNew1(java.lang.Short new1) {
+		this.new1 = new1;
+	}
+
 	public test(java.lang.Integer test1, java.lang.Integer test2,
-			java.lang.Integer test3) {
+			java.lang.Integer test3, java.lang.Short new1) {
 		this.test1 = test1;
 		this.test2 = test2;
 		this.test3 = test3;
+		this.new1 = new1;
 	}
 
 }
