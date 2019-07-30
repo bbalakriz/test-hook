@@ -9,11 +9,23 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:inputData id="_785D1C0E-FC8E-4098-941B-5CFB6EB19CC0" name="InputData-1">
+    <dmn:variable id="_06CA75F3-1655-4464-86BE-5B9C02CC225F" name="InputData-1"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
+      <dmndi:DMNShape id="dmnshape-_785D1C0E-FC8E-4098-941B-5CFB6EB19CC0" dmnElementRef="_785D1C0E-FC8E-4098-941B-5CFB6EB19CC0" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="332" y="60" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
