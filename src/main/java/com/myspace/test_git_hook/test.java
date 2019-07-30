@@ -8,21 +8,11 @@ public class test implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private int id;
-
 	private int cool;
 
 	private int newfield;
 
 	public test() {
-	}
-
-	public int getId() {
-		return this.id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 	public int getCool() {
@@ -41,8 +31,7 @@ public class test implements java.io.Serializable {
 		this.newfield = newfield;
 	}
 
-	public test(int id, int cool, int newfield) {
-		this.id = id;
+	public test(int cool, int newfield) {
 		this.cool = cool;
 		this.newfield = newfield;
 	}
