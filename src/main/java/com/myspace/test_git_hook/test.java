@@ -16,8 +16,6 @@ public class test implements java.io.Serializable {
 
 	private java.lang.String finalone;
 
-	private java.lang.Boolean worksnow;
-
 	public test() {
 	}
 
@@ -53,21 +51,12 @@ public class test implements java.io.Serializable {
 		this.finalone = finalone;
 	}
 
-	public java.lang.Boolean getWorksnow() {
-		return this.worksnow;
-	}
-
-	public void setWorksnow(java.lang.Boolean worksnow) {
-		this.worksnow = worksnow;
-	}
-
 	public test(int newfield, java.lang.String yes, java.lang.String more,
-			java.lang.String finalone, java.lang.Boolean worksnow) {
+			java.lang.String finalone) {
 		this.newfield = newfield;
 		this.yes = yes;
 		this.more = more;
 		this.finalone = finalone;
-		this.worksnow = worksnow;
 	}
 
 }
