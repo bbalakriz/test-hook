@@ -6,12 +6,23 @@ package com.myspace.test_git_hook;
 
 public class test implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public test() {
-    }
+	private java.lang.Integer test;
 
+	public test() {
+	}
 
+	public java.lang.Integer getTest() {
+		return this.test;
+	}
 
+	public void setTest(java.lang.Integer test) {
+		this.test = test;
+	}
+
+	public test(java.lang.Integer test) {
+		this.test = test;
+	}
 
 }
