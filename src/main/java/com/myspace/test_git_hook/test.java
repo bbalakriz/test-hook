@@ -10,6 +10,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.Integer test1;
 
+	private java.lang.Integer test2;
+
 	public test() {
 	}
 
@@ -21,8 +23,17 @@ public class test implements java.io.Serializable {
 		this.test1 = test1;
 	}
 
-	public test(java.lang.Integer test1) {
+	public java.lang.Integer getTest2() {
+		return this.test2;
+	}
+
+	public void setTest2(java.lang.Integer test2) {
+		this.test2 = test2;
+	}
+
+	public test(java.lang.Integer test1, java.lang.Integer test2) {
 		this.test1 = test1;
+		this.test2 = test2;
 	}
 
 }
