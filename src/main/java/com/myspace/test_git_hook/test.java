@@ -14,6 +14,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.String more;
 
+	private java.lang.String finalone;
+
 	public test() {
 	}
 
@@ -41,10 +43,20 @@ public class test implements java.io.Serializable {
 		this.more = more;
 	}
 
-	public test(int newfield, java.lang.String yes, java.lang.String more) {
+	public java.lang.String getFinalone() {
+		return this.finalone;
+	}
+
+	public void setFinalone(java.lang.String finalone) {
+		this.finalone = finalone;
+	}
+
+	public test(int newfield, java.lang.String yes, java.lang.String more,
+			java.lang.String finalone) {
 		this.newfield = newfield;
 		this.yes = yes;
 		this.more = more;
+		this.finalone = finalone;
 	}
 
 }
