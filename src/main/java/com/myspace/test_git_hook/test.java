@@ -8,7 +8,21 @@ public class test implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	private java.lang.Integer test1;
+
 	public test() {
+	}
+
+	public java.lang.Integer getTest1() {
+		return this.test1;
+	}
+
+	public void setTest1(java.lang.Integer test1) {
+		this.test1 = test1;
+	}
+
+	public test(java.lang.Integer test1) {
+		this.test1 = test1;
 	}
 
 }
