@@ -8,8 +8,6 @@ public class test implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private int cool;
-
 	private int newfield;
 
 	private java.lang.String yes;
@@ -17,14 +15,6 @@ public class test implements java.io.Serializable {
 	private java.lang.String more;
 
 	public test() {
-	}
-
-	public int getCool() {
-		return this.cool;
-	}
-
-	public void setCool(int cool) {
-		this.cool = cool;
 	}
 
 	public int getNewfield() {
@@ -51,9 +41,7 @@ public class test implements java.io.Serializable {
 		this.more = more;
 	}
 
-	public test(int cool, int newfield, java.lang.String yes,
-			java.lang.String more) {
-		this.cool = cool;
+	public test(int newfield, java.lang.String yes, java.lang.String more) {
 		this.newfield = newfield;
 		this.yes = yes;
 		this.more = more;
