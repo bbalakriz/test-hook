@@ -407,17 +407,17 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[3]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[3]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/expressionIdentifier"/>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[3]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[9]/expressionIdentifier"/>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
         </factMappingValues>
         <simulationDescriptor reference="../../Scenario/simulationDescriptor"/>
