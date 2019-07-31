@@ -16,6 +16,12 @@ public class Transaction implements java.io.Serializable {
 	private java.lang.String merchantCategory;
 	@org.kie.api.definition.type.Label("Card Brand")
 	private java.lang.String cardBrand;
+	@org.kie.api.definition.type.Label(value = "Email Notification")
+	private java.lang.Boolean email;
+	@org.kie.api.definition.type.Label(value = "SMS Notification")
+	private java.lang.Boolean sms;
+	@org.kie.api.definition.type.Label(value = "Create Case")
+	private java.lang.Boolean createCase;
 
 	public Transaction() {
 	}
@@ -51,14 +57,43 @@ public class Transaction implements java.io.Serializable {
 	public void setCardBrand(java.lang.String cardBrand) {
 		this.cardBrand = cardBrand;
 	}
+	
+	public java.lang.Boolean getEmail() {
+		return this.email;
+	}
+
+	public void setEmail(java.lang.Boolean email) {
+		this.email = email;
+	}
+
+	public java.lang.Boolean getSms() {
+		return this.sms;
+	}
+
+	public void setSms(java.lang.Boolean sms) {
+		this.sms = sms;
+	}
+
+	public java.lang.Boolean getCreateCase() {
+		return this.createCase;
+	}
+
+	public void setCreateCase(java.lang.Boolean createCase) {
+		this.createCase = createCase;
+	}
 
 	public Transaction(java.math.BigInteger amount,
 			java.lang.String countryCode, java.lang.String merchantCategory,
-			java.lang.String cardBrand) {
+			java.lang.String cardBrand,java.lang.Boolean email, java.lang.Boolean sms,
+			java.lang.Boolean createCase) {
 		this.amount = amount;
 		this.countryCode = countryCode;
 		this.merchantCategory = merchantCategory;
 		this.cardBrand = cardBrand;
+		this.email = email;
+		this.sms = sms;
+		this.createCase = createCase;
 	}
+
 
 }
