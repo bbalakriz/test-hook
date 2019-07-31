@@ -6,12 +6,58 @@ package com.myspace.test_git_hook;
 
 public class fraud implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public fraud() {
-    }
+	@org.kie.api.definition.type.Label(value = "Transaction Amount")
+	private java.math.BigInteger amount;
+	@org.kie.api.definition.type.Label(value = "Country")
+	private java.lang.String countryCode;
+	@org.kie.api.definition.type.Label(value = "Merchant Category Code")
+	private java.lang.String merchantCategory;
+	@org.kie.api.definition.type.Label(value = "Card Brand")
+	private java.lang.String cardBrand;
 
+	public fraud() {
+	}
 
+	public java.math.BigInteger getAmount() {
+		return this.amount;
+	}
 
+	public void setAmount(java.math.BigInteger amount) {
+		this.amount = amount;
+	}
+
+	public java.lang.String getCountryCode() {
+		return this.countryCode;
+	}
+
+	public void setCountryCode(java.lang.String countryCode) {
+		this.countryCode = countryCode;
+	}
+
+	public java.lang.String getMerchantCategory() {
+		return this.merchantCategory;
+	}
+
+	public void setMerchantCategory(java.lang.String merchantCategory) {
+		this.merchantCategory = merchantCategory;
+	}
+
+	public java.lang.String getCardBrand() {
+		return this.cardBrand;
+	}
+
+	public void setCardBrand(java.lang.String cardBrand) {
+		this.cardBrand = cardBrand;
+	}
+
+	public fraud(java.math.BigInteger amount, java.lang.String countryCode,
+			java.lang.String merchantCategory, java.lang.String cardBrand) {
+		this.amount = amount;
+		this.countryCode = countryCode;
+		this.merchantCategory = merchantCategory;
+		this.cardBrand = cardBrand;
+	}
 
 }
