@@ -27,7 +27,7 @@
           <header>&lt;= Amount </header>
           <constraintValueType>1</constraintValueType>
           <factField>amount</factField>
-          <fieldType>BigInteger</fieldType>
+          <fieldType>Integer</fieldType>
           <operator>&lt;=</operator>
           <parameters/>
           <binding></binding>
@@ -43,7 +43,7 @@
           <header>&gt;= Amount</header>
           <constraintValueType>1</constraintValueType>
           <factField>amount</factField>
-          <fieldType>BigInteger</fieldType>
+          <fieldType>Integer</fieldType>
           <operator>&gt;=</operator>
           <parameters/>
         </condition-column52>
@@ -200,15 +200,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="big-int">1000</valueNumeric>
+        <valueNumeric class="int">1000</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGINTEGER</dataType>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="big-int">1</valueNumeric>
+        <valueNumeric class="int">1</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGINTEGER</dataType>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -222,7 +222,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>7600, 7801</valueString>
+        <valueString>7600, 7801, 7900</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -258,15 +258,14 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="big-int">99999999999999999999</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGINTEGER</dataType>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="big-int">1000</valueNumeric>
+        <valueNumeric class="int">1000</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_BIGINTEGER</dataType>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
