@@ -6,12 +6,47 @@ package com.myspace.test_git_hook;
 
 public class FraudAlert implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public FraudAlert() {
-    }
+	@org.kie.api.definition.type.Label(value = "Email Notification")
+	private java.lang.Boolean email;
+	@org.kie.api.definition.type.Label(value = "SMS Notification")
+	private java.lang.Boolean sms;
+	@org.kie.api.definition.type.Label(value = "Create Case")
+	private java.lang.Boolean createCase;
 
+	public FraudAlert() {
+	}
 
+	public java.lang.Boolean getEmail() {
+		return this.email;
+	}
 
+	public void setEmail(java.lang.Boolean email) {
+		this.email = email;
+	}
+
+	public java.lang.Boolean getSms() {
+		return this.sms;
+	}
+
+	public void setSms(java.lang.Boolean sms) {
+		this.sms = sms;
+	}
+
+	public java.lang.Boolean getCreateCase() {
+		return this.createCase;
+	}
+
+	public void setCreateCase(java.lang.Boolean createCase) {
+		this.createCase = createCase;
+	}
+
+	public FraudAlert(java.lang.Boolean email, java.lang.Boolean sms,
+			java.lang.Boolean createCase) {
+		this.email = email;
+		this.sms = sms;
+		this.createCase = createCase;
+	}
 
 }
