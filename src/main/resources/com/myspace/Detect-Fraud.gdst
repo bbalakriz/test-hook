@@ -222,7 +222,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>7600, 7801, 7900, 7700</valueString>
+        <valueString>7600, 7801, 7900</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
