@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>local</id>
         <url>/home/bbalasub/.m2/repository</url>
         <source>LOCAL</source>
@@ -14,14 +22,6 @@
         <id>releases</id>
         <url>http://artifact-store-dm-740.apps.34.73.83.30.nip.io/nexus/content/repositories/releases</url>
         <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
       </metadata>
     </repository>
   </repositories>
