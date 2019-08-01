@@ -8,12 +8,6 @@
   <packaging>kjar</packaging>
   <name>test-git-hook</name>
   <description></description>
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <url>http://artifact-store-dm-740.apps.34.73.83.30.nip.io/nexus/content/repositories/releases</url>
-    </repository>
-  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -94,6 +88,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+	  <repository>
+	    <id>releases</id>
+	    <url>http://artifact-store-dm-740.apps.34.73.83.30.nip.io/nexus/content/repositories/releases</url>
+	  </repository>
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
