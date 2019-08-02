@@ -88,12 +88,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-	  <repository>
-	    <id>releases</id>
-	    <url>http://artifact-store-dm-740.apps.34.73.83.30.nip.io/nexus/content/repositories/releases</url>
-	  </repository>
-	</distributionManagement>
   <build>
     <plugins>
       <plugin>
@@ -101,16 +95,6 @@
         <artifactId>kie-maven-plugin</artifactId>
         <version>7.23.0.Final</version>
         <extensions>true</extensions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.1.2</version>
-        <configuration>
-          <excludes>
-            <exclude>**/pom.xml</exclude>
-          </excludes>
-        </configuration>
       </plugin>
     </plugins>
   </build>
