@@ -195,7 +195,7 @@
               <name>0|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">200</rawValue>
+            <rawValue class="string">500</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../FactMappingValue[3]/factIdentifier"/>
