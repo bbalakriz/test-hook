@@ -270,7 +270,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>AMEX, VISA</valueString>
+        <valueString>AMEX, VISA, MASTER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
