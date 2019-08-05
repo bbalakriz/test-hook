@@ -203,7 +203,7 @@
               <name>1564545964313</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">AU</rawValue>
+            <rawValue class="string">SG</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../FactMappingValue[3]/factIdentifier"/>
@@ -211,7 +211,7 @@
               <name>1564545965493</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">7600</rawValue>
+            <rawValue class="string">7900</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../FactMappingValue[3]/factIdentifier"/>
