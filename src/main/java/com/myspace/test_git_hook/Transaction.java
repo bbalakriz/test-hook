@@ -23,6 +23,8 @@ public class Transaction implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Create Case")
 	private java.lang.Boolean createCase;
 
+	private java.lang.String newField;
+
 	public Transaction() {
 	}
 
@@ -82,10 +84,18 @@ public class Transaction implements java.io.Serializable {
 		this.amount = amount;
 	}
 
+	public java.lang.String getNewField() {
+		return this.newField;
+	}
+
+	public void setNewField(java.lang.String newField) {
+		this.newField = newField;
+	}
+
 	public Transaction(int amount, java.lang.String countryCode,
 			java.lang.String merchantCategory, java.lang.String cardBrand,
 			java.lang.Boolean email, java.lang.Boolean sms,
-			java.lang.Boolean createCase) {
+			java.lang.Boolean createCase, java.lang.String newField) {
 		this.amount = amount;
 		this.countryCode = countryCode;
 		this.merchantCategory = merchantCategory;
@@ -93,6 +103,7 @@ public class Transaction implements java.io.Serializable {
 		this.email = email;
 		this.sms = sms;
 		this.createCase = createCase;
+		this.newField = newField;
 	}
 
 }
