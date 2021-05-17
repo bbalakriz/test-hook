@@ -7,7 +7,7 @@
   <version>3.0.0</version>
   <packaging>kjar</packaging>
   <name>test-git-hook</name>
-  <description></description>
+  <description>Test change</description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
