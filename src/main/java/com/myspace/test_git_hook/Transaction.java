@@ -25,6 +25,8 @@ public class Transaction implements java.io.Serializable {
 
 	private java.lang.String finalAdd;
 
+	private java.lang.String newChange;
+
 	public Transaction() {
 	}
 
@@ -92,10 +94,19 @@ public class Transaction implements java.io.Serializable {
 		this.finalAdd = finalAdd;
 	}
 
+	public java.lang.String getNewChange() {
+		return this.newChange;
+	}
+
+	public void setNewChange(java.lang.String newChange) {
+		this.newChange = newChange;
+	}
+
 	public Transaction(int amount, java.lang.String countryCode,
 			java.lang.String merchantCategory, java.lang.String cardBrand,
 			java.lang.Boolean email, java.lang.Boolean sms,
-			java.lang.Boolean createCase, java.lang.String finalAdd) {
+			java.lang.Boolean createCase, java.lang.String finalAdd,
+			java.lang.String newChange) {
 		this.amount = amount;
 		this.countryCode = countryCode;
 		this.merchantCategory = merchantCategory;
@@ -104,6 +115,7 @@ public class Transaction implements java.io.Serializable {
 		this.sms = sms;
 		this.createCase = createCase;
 		this.finalAdd = finalAdd;
+		this.newChange = newChange;
 	}
 
 }
