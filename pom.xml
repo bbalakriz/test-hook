@@ -7,12 +7,12 @@
   <version>3.0.0</version>
   <packaging>kjar</packaging>
   <name>test-git-hook</name>
-  <description>Test change</description>
+  <description>Final Test change 123</description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.10-java7</version>
+      <version>1.4.17</version>
       <scope>test</scope>
     </dependency>
     <dependency>

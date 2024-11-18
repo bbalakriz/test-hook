@@ -1,0 +1,52 @@
+    #!/bin/bash
+   # git ls-remote --exit-code upstream
+    if true;
+      then
+        REPO_URL="https://balakrishnan.balasubramanian@stash.optusnet.com.au/scm/pam/webhook-example.git"
+        if [ -z "${REPO_URL}" ]; then
+          echo "-- ERROR:  Could not identify Repo url."
+          echo "   It is possible this repo is already using SSH instead of HTTPS."
+          exit
+        fi
+
+          USER=$(echo "${REPO_URL}" | cut -d/ -f5)
+          if [ -z "${USER}" ]; then
+            echo "-- ERROR:  Could not identify User."
+            exit
+          fi
+
+          REPO=$(echo "${REPO_URL}" | cut -d/ -f6)
+          if [ -z "${REPO}" ]; then
+            echo "-- ERROR:  Could not identify Repo."
+            exit
+          fi
+
+          # https://username @stash.optusnet.com.au/scm/pam/webhook-example.git
+          # ssh://git@stash.optusnet.com.au:45222/pam/webhook-example.git
+          NEW_URL="ssh://git@stash.optusnet.com.au:45222/${USER}/${REPO}"
+
+          git remote add upstream "${NEW_URL}"
+
+    #    IFS='/' read -ra REPO_ARRAY_STR <<< "$REPO_URL"
+    #    USER=${REPO_ARRAY_STR[-2]}
+    #    REPO=${REPO_ARRAY_STR[-1]} 
+
+     #   if [ -z "${USER}" ]; then
+     #     echo "-- ERROR:  Could not identify User."
+     #     exit
+    #    fi
+        
+    #    if [ -z "${REPO}" ]; then
+    #      echo "-- ERROR:  Could not identify Repo."
+    #      exit
+    #    fi
+
+    #    IFS='' 
+    #    NEW_URL="ssh://git@stash.optusnet.com.au:45222/${USER}/${REPO}"
+
+    #   git remote add upstream "${NEW_URL}"
+    fi
+
+    BRANCH=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+    echo "Current branch is ${BRANCH}"
+    #git push upstream -u "${BRANCH}"
